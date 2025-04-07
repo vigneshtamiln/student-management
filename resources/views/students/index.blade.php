@@ -59,7 +59,6 @@
                         <th>Name</th>
                         <th>Email</th>
                         <th>Phone</th>
-                        <th>Course</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -68,7 +67,6 @@
                             <td>{{ $student->name }}</td>
                             <td>{{ $student->email }}</td>
                             <td>{{ $student->phone }}</td>
-                            <td>{{ $student->course }}</td>
                         </tr>
                     @empty
                         <tr>
